@@ -1,0 +1,31 @@
+# ==========================================
+# GhostMatrixX Bot - Environment Variables
+# ==========================================
+# انسخ هذا الملف إلى .env واملأ القيم الحقيقية
+# NEVER commit the .env file itself
+# ==========================================
+
+# Telegram
+BOT_TOKEN=8608851953:AAE7cb3ihCdB5vg_urEc8IXiXbXxWk1T-Yg
+OWNER_ID=5591628026
+
+# Database
+DATABASE_URL=sqlite:///ghostmatrixx.db
+
+# SMS Provider (choose one or both)
+VIRTUALSMS_API_KEY=
+MRXSIM_API_KEY=
+
+# Payment (Paymob)
+PAYMOB_API_KEY=
+PAYMOB_INTEGRATION_ID=
+PAYMOB_HMAC_SECRET=
+PAYMOB_WALLET_NUMBER=01211853202
+
+# Business
+DEFAULT_CURRENCY=EGP
+FREE_NUMBER_DURATION_HOURS=72
+ADMIN_CONTACT=@MagedAtef1
+
+# Pricing (EGP)
+PRICE_PER_NUMBER=50
